@@ -46,7 +46,7 @@ export default function ListingsDealer() {
     //const [setMapLoaded] = useState(false);
     useEffect(() => {
         const script = document.createElement("script");
-        script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCVrM_YCARY3KUdS2zKYiXZ7dJSGhAbsOI&libraries=places,geometry`;
+        script.src = `https://maps.googleapis.com/maps/api/js?key=your_api_key&libraries=places,geometry`;
         script.async = true;
         script.defer = true;
         //script.onload = () => setMapLoaded(true);
