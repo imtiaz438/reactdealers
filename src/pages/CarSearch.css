@@ -1,0 +1,92 @@
+.banner-ad-wrapper {
+    display: flex;
+}
+
+.banner-ad {
+    margin: 24px auto;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.banner-ad-image {
+    max-height: 66px;
+    width: 100%;
+}
+
+.car-search-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.car-search-dropdown-title {
+    text-align: center;
+    font-size: 24px;
+}
+
+.car-search-dropdown-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.car-search-dropdown-list-item {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 2px 0;
+}
+
+.car-search-dropdown {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.car-search-dropdown-subtitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.car-search-dropdown-icon {
+    color: #ccc;
+}
+
+.car-search-calculator-title {
+    margin: 8px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.car-search-calculator-rate {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.car-search-calculator-subtitle {
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.car-search-calculator-disclaimer {
+    margin: 0;
+    font-size: 8px;
+    font-weight: 400;
+}
+

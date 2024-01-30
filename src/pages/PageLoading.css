@@ -1,0 +1,25 @@
+.page-loading-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.page-loading-icon-wrapper {
+    width: 120px;
+    height: 120px;
+    background-color: #ddd;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.page-loading-icon {
+    width: 120px;
+    height: 120px;
+    color: #eee;
+    overflow: hidden;
+    border-radius: 100%;
+}

@@ -1,0 +1,202 @@
+.banner-ad-wrapper {
+    display: flex;
+}
+
+.banner-ad {
+    margin: 24px auto;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.banner-ad-image {
+    max-height: 66px;
+    width: 100%;
+}
+
+.car-show-listing-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1149px) {
+    .car-show-listing-content {
+        justify-content: center;
+    }
+}
+
+.car-show-listing-vertical-ad-wrapper {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 0 24px;
+}
+
+@media screen and (max-width: 1149px) {
+    .car-show-listing-vertical-ad-wrapper {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.car-show-listing-form-wrapper {
+    max-width: 725px;
+    width: 90%;
+}
+
+.car-show-listing-title {
+    text-align: center;
+    color: #00a5e3;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 699px) {
+    .car-show-listing-title {
+        font-size: 20px;
+    }
+}
+
+.car-show-listing-text {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    text-indent: 20px;
+    margin: 8px 0;
+}
+
+@media screen and (max-width: 699px) {
+    .car-show-listing-text {
+        font-size: 10px;
+        line-height: 18px;
+    }
+}
+
+.car-show-listing-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.car-show-listing-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.car-show-radio-options {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+.car-show-radio-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.car-show-radio {
+    accent-color: #00a5e3;
+    margin: 0 6px 2px 0;
+}
+
+.car-show-listing-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 4px 48px;
+    width: 45%;
+    max-width: 266px;
+}
+
+@media screen and (max-width: 699px) {
+    .car-show-listing-input-wrapper {
+        margin: 4px 12px;
+    }
+}
+
+.car-show-listing-label {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+@media screen and (max-width: 699px) {
+    .car-show-listing-label {
+        font-size: 10px;
+    }
+}
+
+.car-show-listing-input {
+    padding: 2px 8px;
+    accent-color: #00a5e3;
+}
+
+@media screen and (max-width: 699px) {
+    .car-show-listing-input {
+        font-size: 10px;
+    }
+}
+
+.car-show-listing-select {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 699px) {
+    .car-show-listing-select {
+        font-size: 10px;
+        padding: 2px 8px;
+    }
+}
+
+.car-show-listing-textarea-row {
+    display: flex;
+    flex-direction: column;
+    margin: 4px 48px;
+}
+
+.car-show-listing-description {
+    resize: none;
+    height: 120px;
+    accent-color: #00a5e3;
+}
+
+.car-show-listing-disclaimer-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.car-show-listing-disclaimer {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 699px) {
+    .car-show-listing-disclaimer {
+        font-size: 10px;
+        line-height: 18px;
+    }
+}
+
+.car-show-listing-disclaimer-link {
+    color: #00a5e3;
+}
+
+.car-show-listing-button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.car-show-listing-button {
+    background: #00a5e3;
+    color: #fff;
+    border: none;
+    padding: 4px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 2px;
+}

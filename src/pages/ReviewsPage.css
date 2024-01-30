@@ -1,0 +1,144 @@
+.reviews-page-top-ad {
+    margin-top: 18px;
+}
+
+@media screen and (max-width: 1249px) {
+    .reviews-page-top-ad {
+        margin-top: 0;
+    }
+}
+
+.banner-ad-wrapper {
+    display: flex;
+}
+
+.banner-ad {
+    margin: 24px auto;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.banner-ad-image {
+    max-height: 66px;
+    width: 100%;
+}
+
+.reviews-page-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.reviews-page-section.compare {
+    margin-bottom: 24px;
+}
+
+.reviews-page-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 8px;
+}
+
+.reviews-page-search-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews-page-search-input {
+    max-width: 480px;
+    width: 60%;
+    padding: 4px 2px;
+    box-sizing: border-box;
+    height: 28px;
+}
+
+@media screen and (max-width: 599px) {
+    .reviews-page-search-input {
+        max-width: auto;
+        width: 80%;
+    }
+}
+
+.reviews-page-search-button {
+    width: 160px;
+    background-color: #00a5e3;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 4px 2px;
+    border: none;
+    height: 28px;
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 599px) {
+    .reviews-page-search-button {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.reviews-page-dropdown-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.reviews-page-dropdown-list-item {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 2px 0;
+}
+
+.reviews-page-dropdown {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.reviews-page-text-wrapper {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.reviews-page-dropdown-image {
+    height: 48px;
+}
+
+@media screen and (max-width: 599px){
+    .reviews-page-dropdown-image {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.reviews-page-dropdown-subtitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.reviews-page-dropdown-icon {
+    color: #ccc;
+}

@@ -1,0 +1,237 @@
+.banner-ad-wrapper {
+    display: flex;
+}
+
+.banner-ad {
+    margin: 24px auto;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.banner-ad-image {
+    max-height: 66px;
+    width: 100%;
+}
+
+.home-ads-wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.home-ads-content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 1099px) {
+    .home-ads-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 859px) {
+    .home-ads-content {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 679px) {
+    .home-ads-content {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1099px) {
+    .home-square-ad-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.home-square-ad {
+    display: flex;
+}
+
+.carousel-section {
+    width: 90vw;
+    margin: auto;
+}
+
+.carousel-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 40px;
+}
+
+@media screen and (max-width: 599px) {
+    .carousel-header {
+        margin: 8px 0 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.carousel-title {
+    margin: 0;
+    position: relative;
+    top: 2px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.carousel-tabs-wrapper {
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+
+@media screen and (max-width: 599px) {
+    .carousel-tabs-wrapper {
+        margin: 12px 0 0 0;
+    }
+}
+
+.carousel-tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.home-tab-button {
+    border: dotted 1px;
+    background: none;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 2px 8px;
+}
+
+.carousel-wrapper {
+    display: flex;
+    max-width: 1060px;
+    overflow: hidden;
+}
+
+.search-section {
+    width: 90vw;
+    margin: auto;
+}
+
+.search-title {
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+    color: inherit;
+    margin: 52px 0 0 0;
+}
+
+@media screen and (max-width: 569px) {
+    .search-title {
+        width: 280px;
+        margin: 32px auto 0;
+    }
+}
+
+.search-buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0;
+}
+
+@media screen and (max-width: 569px) {
+    .search-buttons-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 12px 0;
+    }
+}
+
+.search-button {
+    margin: 0;
+    border: none;
+    border-radius: 100px;
+    background: #00a5e3;
+    color: #fff;
+    margin: 0 20px;
+    padding: 4px 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 569px) {
+    .search-button {
+        margin: 12px 0 2px;
+    }
+}
+
+.filter-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 24px;
+}
+
+.filter-menu-title {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 600;
+    border-bottom:rgba(0, 0, 0, 0.2) solid 2px;
+    padding: 10px 0;
+   width: 200px;
+}
+
+.filter-menu-dropdown {
+    font-size: 12px;
+    margin-top: 20px;
+    background: none;
+    border: none;
+    border-radius: 2px;
+    width: 200px;
+}
+
+.filter-menu-input {
+    margin-top: 20px;
+    width: 160px;
+    font-size: 14px;
+}
+
+.filter-menu-input:first-of-type {
+    margin-right: 10px;
+}
+
+.filter-menu-section:last-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.filter-menu-submit {
+    background: #00a5e3;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    height: fit-content;
+    margin: 0 5px;
+    padding: 2px 8px;
+    font-size: 14px;
+    font-weight: 500;
+}

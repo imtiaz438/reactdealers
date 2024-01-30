@@ -1,0 +1,216 @@
+@media screen and (max-width: 1249.99px) {
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 12;
+    }
+}
+
+/* Desktop Menu */
+
+.desktop-header {
+    display: none;
+    visibility: hidden;
+}
+
+@media screen and (min-width: 1250px) {
+    .desktop-header {
+        display: flex;
+        visibility: visible;
+        flex-direction: column;
+        border-bottom: rgba(0, 0, 0, 0.1) solid 1px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+    }
+}
+
+.desktop-header-top {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 100vw;
+    position: relative;
+    z-index: 3;
+}
+
+.desktop-header-top__left {
+    background: #00a5e3;
+    width: 50vw;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.desktop-header-top-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.desktop-header-top__center {
+    width: 20vw;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    height: 30px;
+    clip-path: polygon(5% 0, 95% 0, 100% 100%, 0 100%);
+}
+
+.desktop-header-top__center-text {
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 1;
+    color: #999;
+    font-weight: 500;
+}
+
+.desktop-header-top__right {
+    display: flex;
+    flex-direction: row;
+    background: #333;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 0 0 16vw;
+    width: 50vw;
+    padding: 0;
+}
+
+.desktop-header-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+}
+
+.desktop-header-bottom-left {
+    flex-grow: 0.25;
+    display: flex;
+    justify-content: center;
+}
+
+.drive-chicago-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    margin-left: 32px;
+}
+
+.drive-chicago-logo {
+    height: auto;
+    width: 125px;
+}
+
+.desktop-header-bottom-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    width: 40vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.desktop-header-search__button {
+    margin-right: 6px;
+    width: 4.2vw;
+    height: 28px;
+    clip-path: polygon(0 0, 87% 0, 100% 100%, 13% 100%);
+    background: transparent;
+    border: none;
+    color: rgba(0, 0, 0, 0.3);
+    padding: 0 8px;
+}
+
+.desktop-header-search__button:hover {
+    background: #999;
+    color: #fff;
+}
+
+.desktop-header-search__input {
+    width: 22vw;
+    height: 28px;
+    margin: 6px 0 4px 0;
+    clip-path: polygon(0 0, 100% 0, 97% 100%, 3% 100%);
+    text-align: center;
+    border: rgba(0, 0, 0, 0.3) solid 1px;
+}
+
+.desktop-header-search__submit {
+    margin: 0 2px 0 4px;
+    width: 4.2vw;
+    height: 28px;
+    clip-path: polygon(13% 0, 100% 0%, 87% 100%, 0 100%);
+    background: transparent;
+    border: none;
+    color: rgba(0, 0, 0, 0.3);
+    padding: 0 8px;
+}
+
+.desktop-header-search__submit:hover {
+    background: #999;
+    color: #fff;
+}
+
+.desktop-header-bottom-right {
+    flex-grow: 0.25;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.desktop-header-bottom-right-wrapper {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.desktop-header-bottom-right-list-item {
+    height: 42px;
+    margin-right: 32px;
+}
+
+.desktop-header-bottom-right-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.desktop-header-bottom-right-icon {
+    height: 28px;
+    margin-right: 6px;
+    color: #000;
+}
+
+.desktop-header-bottom-right-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.desktop-header-bottom-right-top-text {
+    margin: 0;
+    color: #999;
+    font-size: 13px;
+}
+
+.desktop-header-bottom-right-bottom-text {
+    margin: 4px 0 0 0;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}

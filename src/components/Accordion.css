@@ -1,0 +1,54 @@
+.accordion-dropdown-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.accordion-dropdown-list-item {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.accordion-dropdown {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.accordion-dropdown-subtitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.accordion-dropdown-icon {
+    color: #ccc;
+}
+
+.accordion-answer-wrapper {
+    padding: 0 12px;
+}
+
+.accordion-answer-wrapper.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.accordion-answer-text {
+    font-size: 14px;
+    font-weight: 400;
+}

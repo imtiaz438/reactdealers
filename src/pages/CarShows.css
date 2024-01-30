@@ -1,0 +1,185 @@
+.car-shows-hero-section {
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Car-Shows-Hero-Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    align-items: center;
+}
+
+.car-shows-hero-image {
+    width: 100%;
+    opacity: 0;
+}
+
+.car-shows-title-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.car-shows-title {
+    text-align: center;
+    color: #fff;
+    background:rgba(0, 0, 0, 0.6);
+    width: 430px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 749px) {
+    .car-shows-title {
+        font-size: 24px;
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    .car-shows-title {
+        font-size: 18px;
+        width: 100px;
+    }
+}
+
+.banner-ad-wrapper {
+    display: flex;
+}
+
+.banner-ad {
+    margin: 24px auto;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.banner-ad-image {
+    max-height: 66px;
+    width: 100%;
+}
+
+.car-shows-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.car-shows-vertical-ad-wrapper {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 0 24px;
+}
+
+@media screen and (max-width: 1149px) {
+    .car-shows-vertical-ad-wrapper {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.car-shows-middle-section {
+    max-width: 725px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.car-shows-middle-title {
+    text-align: center;
+    color: #00a5e3;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.car-shows-feature-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.car-shows-feature-card {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    margin: 12px;
+}
+
+.car-shows-feature-section-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 12px auto;
+    width: 90%;;
+}
+
+.car-shows-submit-listing {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    margin: 12px;
+}
+
+.car-shows-feature-section-text {
+    font-size: 14px;
+    font-weight: 400;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.car-shows-submit-listing-link-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 12px 4px;
+}
+
+.car-shows-submit-listing-link {
+    color: #00a5e3;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.car-shows-submit-listing-link:hover {
+    opacity: 0.6;
+}
+
+.car-shows-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.car-shows-list-item {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-align: center;
+    margin: 8px 0;
+}
+
+.car-shows-item-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 8px auto;
+    width: 90%;
+}
+
+.car-shows-item-text {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    margin: 8px auto;
+    width: 90%;
+}
+
+.car-shows-item-link {
+    color: #00a5e3;
+}
+
+.car-shows-day {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}

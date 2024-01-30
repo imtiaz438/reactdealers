@@ -1,0 +1,151 @@
+.reviews-section {
+    padding: 16px 0 40px;
+    background: rgba(38, 38, 38, 0.8);
+    width: 100vw;
+    background-size: cover;
+    display: block;
+}
+
+.reviews-section.home {
+    margin-top: 64px;
+}
+
+.reviews-section.reviews {
+    margin: 12px 0 24px;
+}
+
+.reviews-title {
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0;
+    color: #ebebeb;
+}
+
+.reviews-wrapper {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1139px) {
+    .reviews-wrapper {
+        width: 710px;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .reviews-wrapper {
+        width: 520px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .reviews-wrapper {
+        flex-direction: column;
+        width: 90vw;
+        align-items: center;
+    }
+}
+
+.review-list-item {
+    width: 240px;
+    background: #ebebeb;
+    border-radius: 8px;
+    position: relative;
+    margin: 24px 0;
+}
+
+@media screen and (max-width: 719px) {
+    .review-list-item {
+        margin: 6px 0;
+    }
+}
+
+.review-list-item:hover > .review-overlay {
+    opacity: 1;
+}
+
+.review-image {
+    width: 240px;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.review-info-section {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review-name {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px auto 0;
+    width: 90%;
+}
+
+.review-author {
+    margin-bottom: 18px;
+}
+
+.review-description {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+.review-overlay {
+    background: rgba(0,0,0,.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 240px;
+    z-index: 100;
+    border-radius: 8px;
+}
+
+.review-overlay-link {
+    text-decoration: none;
+    color: #fff;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.review-link-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.review-link {
+    color: #fff;
+    font-size: 16px;
+}
+
+.review-link:hover {
+    opacity: 0.6;
+}

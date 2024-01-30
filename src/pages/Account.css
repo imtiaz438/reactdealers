@@ -1,0 +1,524 @@
+/* All Pages */
+
+.account-title {
+    text-align: center;
+    margin: 42px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1249px) {
+    .account-title {
+        margin: 24px 0 0 0;
+    }
+}
+
+.account-page {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 18px auto;
+}
+
+@media screen and (max-width: 849px) {
+    .account-page {
+        flex-direction: column;
+    }
+}
+
+.account-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Account Settings */
+
+.settings-list {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+}
+
+.settings-list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    max-width: 480px;
+    width: 80%;
+    padding: 0 20px;
+}
+
+.settings-list-item:first-of-type {
+    border-bottom: none;
+}
+
+.settings-list-item:nth-of-type(3) {
+    border-top: none;
+}
+
+.settings-list-item:last-of-type {
+    border-top: none;
+}
+
+.settings-button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+}
+
+.settings-button {
+    background: #00a5e3;
+    color: #fff;
+    padding: 12px 4px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    width: 150px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* Saved Cars */
+
+/* Saved Searches */
+
+.saved-search-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 16px;
+    max-width: 580px;
+    width: 80%;
+}
+
+.saved-search-list-item {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.saved-search-item-image {
+    height: auto;
+    width: 80px;
+    object-fit: contain;
+    margin-left: 8px;
+}
+
+.saved-search-item-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.saved-search-item-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.saved-search-title {
+    margin: 12px 0 12px 12px;
+    font-size: 18px;
+}
+
+.saved-search-delete-button {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    background: transparent;
+    width: 28px;
+    height: 28px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.saved-search-delete-button:hover {
+    background: #00a5e3;
+    color: #fff;
+}
+
+.saved-search-text-wrapper {
+    margin: 0 12px 24px 12px;
+}
+
+.saved-search-text {
+    margin: 0;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.saved-search-search-button {
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background: #00a5e3;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 16px;
+    margin-top: 12px;
+}
+
+
+
+/* Garage */
+
+.garage-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 999px) {
+    .garage-content {
+        flex-direction: column;
+    }
+}
+
+.garage-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+@media screen and (max-width: 999px) {
+    .garage-card-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+.garage-card {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 12px;
+    border-radius: 8px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1249px) {
+    .garage-card {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .garage-card {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .garage-card.inactive {
+        height: 222.75px;
+    }
+}
+
+.garage-card-image {
+    width: 240px;
+    margin: 12px 12px 0 12px;
+}
+
+@media screen and (max-width: 999px) {
+    .garage-card-image {
+        width: 210px;
+    }
+}
+
+.garage-card-title {
+    font-size: 18px;
+    text-align: center;
+}
+
+.garage-card-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 12px;
+    width: 90%;
+}
+
+.garage-card-button {
+    background: transparent;
+    color: #00a5e3;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.garage-card-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 90%;
+}
+
+.garage-card-list-title {
+    margin: 8px auto;
+    text-align: center;
+}
+
+.garage-card-list-item {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    height: 32px;
+}
+
+.garage-card-text-wrapper {
+    margin: 0 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 32px;
+}
+
+@media screen and (max-width: 999px) {
+    .garage-card-text-wrapper {
+        margin: 0;
+    }
+}
+
+.garage-card-item-title {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.garage-card-item-text {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+    text-align: end;
+}
+
+.garage-listing-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 999px) {
+    .garage-listing-wrapper {
+        flex-direction: column-reverse;
+    }
+}
+
+.garage-listing {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-bottom: 24px;
+    width: 420px;
+}
+
+@media screen and (max-width: 1249px) {
+    .garage-listing {
+        max-width: 320px;
+        width: 90%;
+    }
+}
+
+.garage-listing-title {
+    margin: 6px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.garage-listing-list {
+    padding: 0;
+    margin: 0;
+}
+
+.garage-listing-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto 12px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.garage-listing-car {
+    text-align: center;
+    margin: 8px 0 0 0;
+}
+
+.garage-listing-text-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 12px 0;
+    width: 100%;
+}
+
+.garage-listing-status {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.garage-listing-text {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.garage-listing-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 0 0 12px 0;
+}
+
+.garage-listing-button {
+    background: transparent;
+    border: none;
+    color: #00a5e3;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.garage-listing-create-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.garage-listing-create {
+    background: #00a5e3;
+    color: #fff;
+    border: none;
+    padding: 4px 16px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.garage-ad-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+@media screen and (max-width: 999px) {
+    .garage-square-ad {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.garage-square-ad-image {
+    max-width: 240px;
+    height: auto;
+}
+
+.garage-banner-ad {
+    display: none;
+    visibility: hidden;
+    width: 90%;
+}
+
+@media screen and (max-width: 999px) {
+    .garage-banner-ad {
+        display: flex;
+        visibility: visible;
+        align-items: center;
+    }
+}
+
+.garage-banner-ad-image {
+    width: 100%;
+}
+
+/* E-mail Preferences */
+
+.email-notification {
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.email-subscription-list {
+    padding: 0;
+    margin: 10px 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 420px;
+}
+
+.email-subscription-button {
+    background: transparent;
+    border: none;
+    color: #00a5e3;
+    cursor: pointer;
+}
+
+.email-subscription-icon {
+    margin-right: 4px;
+}
+
+.email-page-list {
+    width: 80%;
+    padding: 0;
+    margin: 0 0 24px 0;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+.email-page-list-item {
+    margin: 12px 0;
+}
+
+.email-page-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+.email-page-subtitle {
+    margin: 8px 0 16px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.email-checkbox-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 8px 0;
+}
+
+.email-checkbox {
+    margin: 0 6px 0 0;
+    accent-color:#00a5e3;
+}
+
+.email-checkbox-text {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}

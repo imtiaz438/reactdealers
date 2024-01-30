@@ -1,0 +1,42 @@
+.skeleton-card {
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    margin: 0 10px 10px 10px;
+}
+
+.skeleton-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.skeleton-table-left-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 0.75;
+}
+
+.skeleton-table-middle-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.skeleton-table-right-wrapper {
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skeleton-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 16px 0 16px 30px;
+}

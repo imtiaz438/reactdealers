@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/0c3bf617-05a5-418f-ab5c-97ec2cbadd6f/resourceGroups/DCInvResourceGroup/providers/Microsoft.Web/sites/drivechicago",
+    "appService.deploySubpath": "."
+}

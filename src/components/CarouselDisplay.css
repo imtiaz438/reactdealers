@@ -1,0 +1,27 @@
+.wrapper {
+    max-width: 1060px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1149px) {
+    .wrapper {
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 859px) {
+    .wrapper {
+        max-width: 526px;
+    }
+}
+
+@media screen and (max-width: 649px) {
+    .wrapper {
+        max-width: 80vw;
+    }
+}
+
+.carousel-list-item {
+    flex: 1 1 auto;
+    position: relative;
+}
